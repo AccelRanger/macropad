@@ -15,7 +15,7 @@ The computer-side software processes the received data and emulates keyboard inp
 - **Total buttons:** 9
 - **PCB:** Custom-designed PCB
 
-  !(/src/img/main.png)
+  ![pcb](/src/img/main.png)
 
 ## Planned features
 
