@@ -19,13 +19,7 @@ The computer-side software processes the received data and emulates keyboard inp
 
 ## Planned features
 
-- ESP32 firmware that sends a signal when a button is pressed.
-- Computer-side software written in C++.
-- Assign keyboard keys or keyboard shortcuts to each macropad button.
-- Create, edit, and switch between presets.
-- Click a button in the software to edit its key binding.
-- Support binding a single key or a full keyboard shortcut.
-- Press `Esc` to stop editing a key binding.
+- Bash commands
 
 ## Signal flow
 
@@ -37,4 +31,4 @@ The computer-side software processes the received data and emulates keyboard inp
 
 ## Project status
 
-This document describes the intended design and features. Firmware and computer-side software still need to be implemented.
+This document describes the intended design and features. Firmware and computer-side software is almost done.
