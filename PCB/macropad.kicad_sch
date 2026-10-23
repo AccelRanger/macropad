@@ -4299,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 27.94) (xy 57.15 27.94)
+			(xy 53.34 27.94) (xy 68.58 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4646,16 +4646,6 @@
 			(type default)
 		)
 		(uuid "be15e3a1-09f8-4d00-83f4-46028b547841")
-	)
-	(wire
-		(pts
-			(xy 64.77 27.94) (xy 68.58 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa81190-e5d8-4e8f-92a3-78f080f4fdd4")
 	)
 	(wire
 		(pts
@@ -10036,86 +10026,6 @@
 			(project "macropad"
 				(path "/a1d75478-326e-4ec8-b172-7963eed0ce60"
 					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5819")
-		(at 60.96 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7d7c453-4dc2-4d88-a595-4662db301925")
-		(property "Reference" "USB-D1"
-			(at 61.2775 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819"
-			(at 61.2775 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 60.96 23.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 60.96 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 60.96 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d2ad5b84-cc0f-4452-8e25-e8eebd9e4ffd")
-		)
-		(pin "2"
-			(uuid "b911f073-f0b8-4d9f-a176-e6d02339d957")
-		)
-		(instances
-			(project "macropad"
-				(path "/a1d75478-326e-4ec8-b172-7963eed0ce60"
-					(reference "USB-D1")
 					(unit 1)
 				)
 			)
