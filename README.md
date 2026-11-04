@@ -31,4 +31,4 @@ The computer-side software processes the received data and emulates keyboard inp
 
 ## Project status
 
-This document describes the intended design and features. Firmware and computer-side software is almost done.
+This document describes the intended design and features.
