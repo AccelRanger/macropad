@@ -54,7 +54,12 @@ void loop() {
     }
     if (rawState[i] != stableState[i] && (t - lastChange[i]) >= DEBOUNCE_MS) {
       stableState[i] = rawState[i];
+      // Protocol: "N" when key N goes down, "rN" when it comes back up.
+      // (Old desktop apps simply ignore the "rN" lines.)
       if (stableState[i]) {
+        Serial.println(i + 1);
+      } else {
+        Serial.print('r');
         Serial.println(i + 1);
       }
     }

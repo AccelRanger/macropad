@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Macropad Studio
+Comment=Configure the 3x3 macropad
+Exec=macropad-studio
+Icon=macropad-studio
+Terminal=false
+Categories=Utility;Settings;HardwareSettings;
+StartupWMClass=macropad-studio
