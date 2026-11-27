@@ -1,0 +1,9 @@
+# Macropad Studio udev rules
+# Install:  sudo cp 70-macropad.rules /etc/udev/rules.d/ && sudo udevadm control --reload && sudo udevadm trigger
+# Then unplug/replug the macropad (and log out/in once for /dev/uinput).
+
+# Let the logged-in user create a virtual keyboard (needed to send shortcuts).
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
+
+# Let the logged-in user open the macropad's serial port (Espressif USB vendor id 303a).
+SUBSYSTEM=="tty", ATTRS{idVendor}=="303a", TAG+="uaccess"
